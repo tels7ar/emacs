@@ -125,4 +125,5 @@ hexadecimal escapes."
 	     (format "\\^%c" (+ c ?@))
 	   (format "\\%02x" c)))))))
 
+(provide 'a2ps)
 ;;; a2ps.el ends here
